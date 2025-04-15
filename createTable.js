@@ -1,6 +1,5 @@
 var mysql = require("mysql");
-var http = require("http");
-
+    // const{con} = require("./config.js");
 var con = mysql.createConnection({
     host:"localhost",
     user: "root",
